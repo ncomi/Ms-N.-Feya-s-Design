@@ -84,7 +84,7 @@ li{
 }
 
 #Middle {
-  background-image: linear-gradient(to right bottom ,rgba(9, 0, 0, 0.6),rgba(9, 0, 0, 0.6)),url(business.jpeg);
+  background-image: linear-gradient(to right bottom ,rgba(9, 0, 0, 0.6),rgba(9, 0, 0, 0.6)),url(../images/business.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,14 +174,14 @@ font-size: 15px;
 text-align: center;
 color: white;
 position: relative;
-background-image: linear-gradient(to left bottom,#274254f5, #274254d7),url(partner.jpeg);
+background-image: linear-gradient(to left bottom,#274254f5, #274254d7),url(../images/partner.jpeg);
 background-size:cover;
 height: 360px;
 width:25%;
 }
 
 .afikile {
-background-image: url(photo.jpeg);
+background-image: url(../images/photo.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 350px;
@@ -208,7 +208,7 @@ width:25%;
   transform: translateX(10px);
 }
 .cool {
-  background-image: url(meeting.jpeg);
+  background-image: url(../images/meeting.jpeg);
   height: 350px;
   width:25%;
 }
@@ -291,7 +291,7 @@ top: 5px;
 
 
 #section-two{
-  background-image:linear-gradient(to left bottom,#30495ae5, #30495ae5),url(picture.jpeg);
+  background-image:linear-gradient(to left bottom,#30495ae5, #30495ae5),url(../images/picture.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,7 +301,7 @@ top: 5px;
 
 }
 .background{
-  background-image:url(business.jpeg);
+  background-image:url(../images/business.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -484,4 +484,49 @@ left: 110px;top:10px;
   transform: translateX(25%);
   position: relative;
   bottom:85px;
+}
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: flex;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown-container:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown-container button{
+transform: translateY(-15px);
 }
