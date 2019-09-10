@@ -106,7 +106,7 @@ li{
 }
 
 #Middle {
-  background-image: linear-gradient(to right bottom ,rgba(9, 0, 0, 0.6),rgba(9, 0, 0, 0.6)),url(images/business.jpeg);
+  background-image: linear-gradient(to right bottom ,rgba(9, 0, 0, 0.6),rgba(9, 0, 0, 0.6)),url(business.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
